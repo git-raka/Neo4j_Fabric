@@ -5,7 +5,9 @@
 REFERENCES
 
 https://neo4j.com/docs/operations-manual/current/fabric/queries/ 
+
 https://neo4j.com/docs/operations-manual/current/tutorial/fabric-tutorial/
+
 https://neo4j.com/blog/getting-started-with-neo4j-fabric/
 
 
@@ -14,22 +16,31 @@ neo4j.conf
 dbms.mode=SINGLE
 
 fabric.database.name=fabric
+
 #fabric.routing.servers=server1:7687,server2:7687
 
 fabric.graph.0.name=nonebp1
+
 fabric.graph.0.uri=neo4j://13.213.9.193:7687,neo4j://18.138.58.226:7687,neo4j://13.213.68.70:7687
+
 fabric.graph.0.database=nonebp1
 
 fabric.graph.1.name=movies
+
 fabric.graph.1.uri=neo4j://13.213.9.193:7687,neo4j://18.138.58.226:7687,neo4j://13.213.68.70:7687
+
 fabric.graph.1.database=movies
 
 fabric.graph.2.name=nonebp2
+
 fabric.graph.2.uri=neo4j://13.229.248.26:7687,neo4j://54.151.255.109:7687,neo4j://13.213.44.173:7687
+
 fabric.graph.2.database=nonebp2
 
 fabric.graph.3.name=northwind
+
 fabric.graph.3.uri=neo4j://13.229.248.26:7687,neo4j://54.151.255.109:7687,neo4j://13.213.44.173:7687
+
 fabric.graph.3.database=northwind
 
 
