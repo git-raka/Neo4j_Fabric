@@ -1,8 +1,7 @@
 # fabric
 
 
-2. CONFIGURATION
-REFERENCES
+## CONFIGURATION REFERENCES
 
 https://neo4j.com/docs/operations-manual/current/fabric/queries/ 
 
@@ -52,8 +51,7 @@ movies
 nonebp2
 northwind
 
-4. USING
-QUERIES
+## USING QUERIES
 
 UNION
 
@@ -83,7 +81,7 @@ RETURN kontrak.NOKONTRAK, kontrak.TGLKONTRAK
 
 
 
-REATE
+## CREATE
 
 USE fabric.nonebp1
 CREATE (u:User {uid:1})
